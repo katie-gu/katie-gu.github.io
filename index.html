@@ -1,159 +1,455 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Katie Gu</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  <!-- Favicons -->
+  <link href="assets/img/Katie_Gu.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-  <body>
+  <!-- =======================================================
+  * Template Name: MyResume - v2.0.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Katie Gu</a>
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav class="nav-menu">
+      <ul>
+        <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Katie Gu</h1>
+      <p>I'm a <span class="typed" data-typed-items="Developer, Leader, Machine Learning Enthusiast"></span></p>
+      <div class="social-links">
+        <a href="https://twitter.com/katieegu" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/katiegu555" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/katie_gu/" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://github.com/katie-gu" class="google-plus"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/katie-gu-851738132/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>I am a software engineer passionate about designing solutions to improve healthcare, education, and business.</p>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
 
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/IMG_5620.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Developer, Leader, and Machine Learning Enthusiast</h3>
+            <p class="col-lg-8 pt-4 pt-lg-0 content">
+            I enjoy leveraging the latest technologies to create solutions to the most pressing problems in business.
+            At my Qualtrics internship during summer 2019, I designed a new widget that helps customers place custom survey data visualizations
+            on their dashboards. I have extensive leadership experience, having led a team of 5 junior mentors as a senior computer science mentor.
+            I am fascinated by the stories data can tell through deep learning, as I designed a neural network that predicts Yelp reviews with over 60% accuracy.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">Python <i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Java <i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Angular <i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">Git <i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Google Cloud <i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Node <i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">C <i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Science in Electrical Engineering &amp; Computer Science</h4>
+              <h5>2016-2020</h5>
+              <p><em>University of California at Berkeley, Berkeley, CA</em></p>
+              <p>Completed coursework in systems design, algorithms, and machine learning.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Software Development Engineer I</h4>
+              <h5>August 2020 - Present</h5>
+              <p><em>Amazon, Sunnyvale, CA</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>Software Engineer Intern</h4>
+              <h5>May 2019-August 2019</h5>
+              <p><em>Qualtrics, Seattle, WA</em></p>
+              <ul>
+                <li>Developed a custom SDK using Angular that allows iframe widgets to be hosted on the plugin registry.</li>
+                <li>Designed a dropdown menu using HTML, CSS, and Angular for users to pick iframe widgets to add onto their dashboards.</li>
+                <li>Developed an API using Angular that includes functionality for getting fieldset data and sending data configurations to Data Shape Service.</li>
+                <li>Product currently in use by Fortune 500 companies, such as Microsoft and LinkedIn.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Software Engineer Intern</h4>
+              <h5>June 2018-August 2018</h5>
+              <p><em>Bungee Tech, Berkeley, CA</em></p>
+              <ul>
+                <li>Developed an analytics dashboard in Node.js for clients to monitor key statistics about their web scraping.</li>
+                <li>Wrote the back-end API in Javascript to query the DynamoDB database in order to retrieve the data for data visualizations.</li>
+                <li>Created interactive and dynamic data visualizations using Chart.js and jQuery.</li>
+                <li>Created a search page for clients to make queries to the database. Enables downloading of query results using AWS S3.</li>
+                <li>Designed the user interface using HTML, CSS, and Bootstrap.</li>
+                <li>Dashboard currently used by over 10 national Fortune 500 retailers.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Here are some of my featured personal and course projects from over the years.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Web App</li>
+              <li data-filter=".filter-systems">Systems</li>
+              <li data-filter=".filter-machine">Machine Learning</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Study Bears</h4>
+                <p>Web App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Resume to Job</h4>
+                <p>Web App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details-2.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-systems">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Pintos Operating System</h4>
+                <p>Systems</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details-3.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-machine">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Yelp Ratings Predictor</h4>
+                <p>Machine Learning</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details-4.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-machine">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Spam Email Predictor</h4>
+                <p>Machine Learning</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details-5.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-machine">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Image Similarity Search</h4>
+                <p>Machine Learning</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details-6.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+
+          <div class="col-lg-4">
+            <div class="info">
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>Use form to the right.</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
     <div class="container">
-
-      <div class="starter-template">
-        <h1 id="Title" style="font-size:60px">Katie Gu</h1>
-        <p id="Subtitle" class="lead"> UC Berkeley EECS Student, Class of 2020.<br> </p>
-        <h2 id="AboutMe" style= "font-size: 40px"> About Me </h2>
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th style="text-align:center; font-family:Arial; font-size:20px"> Software Engineer, Teacher, and Computer Science Student</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td style="text-align:left; font-size:15px">I am a second year EECS major interested in the intersection of technology and education. Currently, I am developing a web application, Study Bears, that helps students search for and create study groups. In my spare time, I enjoy teaching and leading, as I tutor mathematics at the Student Learning Center and work as a Golden Bear Orientation leader to introduce freshmen to the UC Berkeley campus. If you have any summer internship opportunities, email me at katiegu@berkeley.edu.</td>
-            </tbody>
-        </table>
-        <h2 id="Education" style= "font-size: 40px"> Education </h2>
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th style="text-align:left; font-size:20px"> BS, Electrical Engineering and Computer Science, 2016-2020 (expected) </th>
-          <tbody>
-            <tr>
-              <td style="text-align:left; font-size:15px"> Relevant Coursework: CS 61A (Structure and Interpretation of Computer Programs), CS 61B (Data Structures), CS 61C (Great Ideas in Computer Architecture),
-                CS 70 (Discrete Math and Probability Theory)</td>
-          </tbody>
-        </table>
-        <h2 style= "font-size: 40px"> Experience </h2>
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th style="text-align:left; font-size:20px">Mathematics Tutor, UC Berkeley Student Learning Center</th>
-          </thead>
-          <tbody>
-            <tr>
-              <td style="text-align:left; font-size:15px">Tutor students in calculus I and II, multivariable calculus, and linear algebra/differential equations. Create parallel problems, review concepts, and grade students' adjunct quizzes. </td>
-            </tr>
-          </tbody>
-        </table>
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th style="text-align:left; font-size:20px">CS 61A/61B Lab Assistant, UC Berkeley Department of Computer Science</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td style="text-align:left; font-size:15px"> Tutored students in functional programming, data structures and algorithms, and software engineering. </td>
-          </tbody>
-        </table>
-        <h2 style="font-size: 40px"> Technical Projects </h2>
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th style="text-align:left; font-size:20px"> Study Bears, HackDavis</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td style="text-align:left; font-size:15px"> Designed a web application that helps college students create and manage study groups. </td>
-            </tr>
-          </tbody>
-        </table>
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th style="text-align:left; font-size:20px"> Yelp Rating Predictor (CS 61C) </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td style="text-align:left; font-size:15px"> Parallelized a Naive Bayes classifier using Spark to predict the ratings of Yelp reviews. </td>
-            </tr>
-          </tbody>
-        </table>
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th style="text-align:left; font-size:20px"> Bear Maps (CS 61B) </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td style="text-align:left; font-size:15px"> Implemented the back-end of a web mapping application. Employs quad tree search algorithm for map rastering and A* algorithm for route search. </td>
-            </tr>
-          </tbody>
-        </table>
-
+      <h3>Katie Gu</h3>
+      <p>Developer, Leader, Machine Learning Enthusiast</p>
+      <div class="social-links">
+        <a href="https://twitter.com/katieegu" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/katiegu555" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/katie_gu/" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://github.com/katie-gu" class="google-plus"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/katie-gu-851738132/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Katie Gu, 2020</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: [license-url] -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
-    </div><!-- /.container -->
+  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+  <div id="preloader"></div>
 
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
